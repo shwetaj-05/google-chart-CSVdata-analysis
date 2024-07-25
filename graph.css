@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.graph-option{
+    height: 15rem;
+    background-color: #4198FF;
+    width: 100%;
+    z-index: -1;
+}
+.curve {
+    position: absolute;
+    margin-top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(206% + 1.3px);
+    height: 10rem;
+}
+
+.curve .shape-fill {
+    fill: #4198FF;
+}
+ul{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+ul li {
+    display:inline-block;
+    list-style-type:none;
+    margin-top: -15rem;
+    padding:1rem 2rem;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+#view_div{
+    width: 100%;
+    min-height: 40vh;
+    margin: 0 auto;
+}
